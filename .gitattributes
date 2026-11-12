@@ -1,0 +1,5 @@
+# Left out of release zips (git archive)
+/bin export-ignore
+/README.md export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore

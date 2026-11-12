@@ -1,0 +1,5 @@
+# Release builds
+/build/
+*.zip
+
+.DS_Store

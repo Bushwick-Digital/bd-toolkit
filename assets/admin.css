@@ -1,0 +1,44 @@
+/* BD Toolkit — drag-and-drop ordering in admin list tables */
+.fixed .column-bdtk_order {
+	width: 2.2em;
+}
+
+.bdtk_sort_handle {
+	visibility: hidden;
+	padding: 2px;
+	border: 0;
+	background: none;
+	color: #8c8f94;
+	cursor: move;
+}
+
+.bdtk_sortable_active .bdtk_sort_handle {
+	visibility: visible;
+}
+
+.bdtk_sort_handle:hover,
+.bdtk_sort_handle:focus {
+	color: #2271b1;
+}
+
+.bdtk_sort_handle:focus {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+	box-shadow: none;
+}
+
+.bdtk_sort_placeholder td {
+	background: #f0f6fc;
+	border: 1px dashed #72aee6;
+}
+
+tr.ui-sortable-helper {
+	display: table;
+	background: #fff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#the-list tr.bdtk_sort_saved > * {
+	background: #edfaef;
+	transition: background 0.6s;
+}
